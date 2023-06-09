@@ -337,7 +337,8 @@ td, th{
     }
 
     .mapa, .mapa-conteudo{
-        width: auto;
+        width: 50vw;
+        height: 25vh;
     }
 
 }
