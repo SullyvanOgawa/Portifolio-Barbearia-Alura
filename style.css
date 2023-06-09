@@ -254,11 +254,11 @@ td, th{
 
 @media (max-width: 1200px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-        width: 100vw;
+        width: auto;
     } 
     
     nav a{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .principal{
         text-align: justify;
