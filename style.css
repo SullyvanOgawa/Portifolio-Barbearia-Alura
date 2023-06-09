@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
 }
 
 header{
@@ -253,10 +254,16 @@ td, th{
 }
 
 @media (max-width: 500px) {
+    header{
+        width: 100vw;
+    }
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
         width: 100vw;
     } 
     
+    .caixa > h1{
+        width: 100vw;
+    }
     nav > a{
         font-size: 1rem;
     }
@@ -319,6 +326,10 @@ td, th{
     form{
         margin: 0 20px;
         padding: 3em 0;
+    }
+
+    .utensilios{
+        width: 100vw;
     }
 
     .input-padrao{
