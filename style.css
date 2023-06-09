@@ -253,7 +253,7 @@ td, th{
 }
 
 @media (max-width: 1200px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+    .caixa, .principal, .conteudo-beneficios, .video{
         width: auto;
     } 
     
@@ -336,13 +336,10 @@ td, th{
         margin: 0 20px 20px;        
     }
 
-    .mapa{
+    .mapa, .mapa-conteudo{
         width: auto;
     }
 
-    .mapa-conteudo{
-        width: 100%;
-    }
 }
 
 
