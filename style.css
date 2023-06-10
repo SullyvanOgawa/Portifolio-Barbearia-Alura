@@ -310,8 +310,10 @@ td, th{
     
     .produtos li{
         text-align: center;
+        width: auto;
         margin: 30px 45px 0;
         padding: 15px 0 20px;
+        
     }
 
     .principal h2{
