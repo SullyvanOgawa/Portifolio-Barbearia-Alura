@@ -286,17 +286,16 @@ td, th{
         margin: 0 12px 10px;
     }
     
+    .itens:before{
+        content: normal;
+    }
     .lista-beneficios{
         width: 100%;
     }
 
-    .itens:before{
-        content:disc;
-    }
-    
     .imagem-beneficios{
         margin: 0 12px 0; 
-        width: 85%
+        width: 87%
         
     }
     .video{
