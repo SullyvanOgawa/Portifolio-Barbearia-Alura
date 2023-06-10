@@ -258,7 +258,7 @@ td, th{
     } 
     
     nav a{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .principal{
         text-align: justify;
@@ -301,10 +301,13 @@ td, th{
         width: 90%;
     }
 
-    .produtos li{
-        display: block;
+    .produtos{
         width: auto;
     }
+    .produtos li{
+        display: block;
+    }
+    
     .produtos li{
         text-align: center;
         margin: 30px 45px 0;
