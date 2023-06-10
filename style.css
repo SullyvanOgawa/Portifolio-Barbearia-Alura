@@ -258,9 +258,10 @@ td, th{
     } 
     
     nav a{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     .principal{
+        text-align: justify;
         margin: 12px 12px 0;
         padding: 15px 0 0;
     }
@@ -285,27 +286,24 @@ td, th{
         margin: 0 12px 10px;
     }
     
-    .itens:before{
-        content:none;
-    }
     .lista-beneficios{
         width: 100%;
-       
     }
 
     .imagem-beneficios{
         margin: 0 12px 0; 
-        width: 85%
+        width: 80%
         
     }
     .video{
         margin: 40px 0 10px;
         padding: 0 12px 0;
-        width: 85%;
+        width: 90%;
     }
 
     .produtos li{
         display: block;
+        width: auto;
     }
     .produtos li{
         text-align: center;
@@ -336,10 +334,7 @@ td, th{
         margin: 0 20px 20px;        
     }
 
-    .mapa, .mapa-conteudo{
-        width: auto;
-    }
-
+    
 
 }
 
